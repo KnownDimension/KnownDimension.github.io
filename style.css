@@ -80,7 +80,7 @@ a:hover {
 }
 
 
-@media (pointer:none), (pointer:coarse), (max-width: 900px) {
+@media (pointer:none), (pointer:coarse) {
    .boxcon {
       flex-direction: column;
       width: 100%;
@@ -101,7 +101,7 @@ a:hover {
    height: 300px;
 }
 
-@media (pointer:none), (pointer:coarse), (max-width: 900px) {
+@media (pointer:none), (pointer:coarse) {
    .box {
       width: 90%;
       margin-left: auto;
@@ -135,7 +135,7 @@ a:hover {
    padding: 10px;
 }
 
-@media (pointer:none), (pointer:coarse), (max-width: 900px) {
+@media (pointer:none), (pointer:coarse) {
    .blogindex {
       width: 90%;
    }
@@ -220,7 +220,7 @@ a:hover {
 
 
 
-@media (pointer:none), (pointer:coarse), (max-width: 900px) { 
+@media (pointer:none), (pointer:coarse) { 
    #hearts {
       width: 50px;
       height: 50px;
