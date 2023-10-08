@@ -25,6 +25,12 @@ body {
 }
 
 
+@media (pointer:none), (pointer:coarse) {
+   .socials{
+      font-size: 60px;
+   }
+}
+
 a {
    transition: color 0.5s;
 }
@@ -136,6 +142,7 @@ a:hover {
 @media (pointer:none), (pointer:coarse) {
    .blogindex {
       width: 90%;
+      font-size: 20px;
    }
 }
 
