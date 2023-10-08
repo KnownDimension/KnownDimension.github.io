@@ -1,0 +1,220 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+
+body {
+   background-color: #2e3440;
+   color: #d8dee9;
+   text-align: center;
+   font-family: Verdana, sans-serif;
+   src: url(NerdSymbols.ttf);
+}
+
+.start {
+   font-family: "Sofia", sans-serif;
+   font-size: 25px;
+}
+
+
+.socials {
+   position: relative;
+   font-family: "NerdSymbols";
+   font-size: 40px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   text-decoration: none;
+   
+}
+
+
+a {
+   transition: color 0.5s;
+}
+
+
+a:link {
+   text-decoration: none;
+   color: #4c566a;
+}
+
+a:visited {
+   color: #4c566a;
+}
+
+a:hover {
+   color: #88c0d0;
+}
+
+
+.intro {
+   font-size: 15px;   
+}
+
+
+
+.introduction {
+   background-color: #434c5e;
+   border-radius: 20px;
+/*   border: 5px solid #434c5e; */
+   max-height: 130px; 
+   max-width: 520px; 
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   display: block;
+   padding: 10px;
+   font-size: 15px; 
+} 
+
+
+
+
+
+.boxcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+@media (max-width: 900px) {
+   .boxcon {
+      flex-direction: column;
+      width: 100%;
+   }
+   .start {
+      font-size: 18px;
+   }
+}
+
+
+.box {
+   border-radius: 20px;
+   width: 35%;
+   display: inline-block;
+   margin: 10px;
+   padding: 20px;
+   color: black;
+   height: 300px;
+}
+
+@media (max-width: 900px) {
+   .box {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+   }
+}
+
+
+
+.GamesIPlay {
+   background-color: #5e81ac;
+}
+
+.Linux {
+   background-color: #b48ead;
+}
+
+.programming-languages {
+   background-color: #a3be8c;
+}
+
+.blogindex {
+   background-color: #bf616a;
+   color: black;
+   display: block;
+   border-radius: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px;
+   width: 40%;
+   padding: 10px;
+}
+
+@media (max-width: 900px) {
+   .blogindex {
+      width: 90%;
+   }
+}
+
+
+/* .GamesIPlay {
+   background-color: #5e81ac;
+   border-radius: 20px;
+   margin-left: auto;  
+   margin-right: auto;
+   margin-top: 10px;
+   display: inline-block;
+   padding: 5px;
+   color: black;
+   height: 300px;
+}
+
+.Linux {
+   background-color: #b48ead;
+   border-radius: 20px;
+   margin-left: auto;  
+   margin-right: auto;
+   margin-top: 10px;
+   display: inline-block;
+   padding: 5px;
+   color: black;
+   height: 300px;
+}
+
+.programming-languages {
+   background-color: #a3be8c;
+   border-radius: 20px;
+   margin-left: auto;  
+   margin-right: auto;
+   margin-top: 10px;
+   display: inline-block;
+   padding: 5px;
+   color: black;
+   height: 300px;
+}
+*/
+/* .languagestext {
+   position: relative;
+   top: 14px;
+}  */
+
+
+.pfp{
+   position: relative;
+}
+
+#pfp {
+   display: block;
+   border-radius: 50%;
+   border: 10px solid #88c0d0;
+   padding: 10px 10px 10px 10px;
+   max-width: 25%;  
+   max-height: 25%;
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+}
+
+
+#hearts {
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   top: 0%;
+   right: 42%;
+   visibility: hidden;
+}
+
+#pfp:hover ~ #hearts {
+   visibility: visible;
+}
+
+
+/* width mobile design */
+
+
