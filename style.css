@@ -205,10 +205,40 @@ a:hover {
    width: 100px;
    height: 100px;
    position: absolute;
-   top: 0%;
+   top: 0%; 
    right: 42%;
    visibility: hidden;
+   margin-left: auto;
+   margin-right: auto;
 }
+
+@media (max-width: 1200px) { 
+   #hearts {
+      right: 40%;
+   }
+}
+
+
+
+@media (max-width: 900px) { 
+   #hearts {
+      width: 50px;
+      height: 50px;
+      right: 40%;
+   }
+}
+
+@media (max-width: 480px) { 
+   #hearts {
+      width: 50px;
+      height: 50px;
+      right: 35%;
+   }
+}
+
+
+
+
 
 #pfp:hover ~ #hearts {
    visibility: visible;
