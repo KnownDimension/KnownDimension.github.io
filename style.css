@@ -61,14 +61,14 @@ a:hover {
    border-radius: 20px;
 /*   border: 5px solid #434c5e; */
    max-height: 130px; 
-   max-width: 520px; 
+   max-width: 580px; 
    margin-left: auto;
    margin-right: auto;
    margin-top: 10px;
    margin-bottom: 10px;
    display: block;
    padding: 10px;
-   font-size: 15px; 
+   font-size: 20px; 
 } 
 
 
@@ -109,7 +109,7 @@ a:hover {
       width: 90%;
       margin-left: auto;
       margin-right: auto;
-      font-size: 30px;
+      font-size: 25px;
    }
 }
 
