@@ -84,9 +84,7 @@ a:hover {
    .boxcon {
       flex-direction: column;
       width: 100%;
-   }
-   .start {
-      font-size: 18px;
+      font-size: 20px;
    }
 }
 
